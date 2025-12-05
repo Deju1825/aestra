@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aestra - Precision Software Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+      <nav
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <img
+            src="images/companyLogo.png"
+            alt="Aestra Logo"
+            class="h-10 mr-2"
+          />
+          <div
+            class="text-2xl font-bold text-blue-600"
+            style="
+              font-family: 'Poppins', sans-serif;
+              font-weight: 900;
+              letter-spacing: -1px;
+            "
+          >
+            Aestra
+          </div>
+        </div>
+        <ul class="hidden md:flex space-x-6 text-sm font-medium">
+          <li>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-gray-700 hover:text-blue-600"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-gray-700 hover:text-blue-600"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html" class="text-gray-700 hover:text-blue-600"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <nav id="mobile-menu" class="hidden md:hidden bg-gray-50 px-4 py-4">
+        <ul class="flex flex-col space-y-2 text-sm font-medium">
+          <li>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-gray-700 hover:text-blue-600"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-gray-700 hover:text-blue-600"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html" class="text-gray-700 hover:text-blue-600"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section
+      class="relative bg-cover bg-center text-white py-20 px-4"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('images/hero.png');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="max-w-4xl mx-auto text-center relative z-10">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Precision Solutions for Modern Challenges
+        </h1>
+        <p class="text-lg md:text-xl mb-8 opacity-95">
+          Just like an archer's arrow, our work is built with focus, precision,
+          and the drive to reach farther. We create solutions that exceed
+          expectations and unlock new possibilities.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="contact.html"
+            class="px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition"
+          >
+            Get Started
+          </a>
+          <a
+            href="services.html"
+            class="px-8 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW SECTION -->
+    <section class="max-w-7xl mx-auto px-4 py-20">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Core Services</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          We deliver comprehensive software solutions designed to streamline
+          your operations, enhance team collaboration, and drive business
+          growth.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1: Project Management -->
+        <div
+          class="p-8 border border-gray-200 rounded-lg hover:shadow-lg transition"
+        >
+          <div class="text-4xl mb-4">📋</div>
+          <h3 class="text-xl font-bold mb-3">Project Management</h3>
+          <p class="text-gray-600 mb-6">
+            Centralized system for scheduling, tracking progress, managing
+            budgets, and coordinating teams with real-time visibility.
+          </p>
+          <a
+            href="services.html#project-management"
+            class="text-blue-600 font-semibold hover:text-blue-800"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        <!-- Service 2: Workforce Scheduling -->
+        <div
+          class="p-8 border border-gray-200 rounded-lg hover:shadow-lg transition"
+        >
+          <div class="text-4xl mb-4">👥</div>
+          <h3 class="text-xl font-bold mb-3">Workforce Scheduling</h3>
+          <p class="text-gray-600 mb-6">
+            Intelligent worker management with QR code attendance, shift
+            scheduling, and performance tracking integrated into one platform.
+          </p>
+          <a
+            href="services.html#workforce-scheduling"
+            class="text-blue-600 font-semibold hover:text-blue-800"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        <!-- Service 3: Advanced Analytics -->
+        <div
+          class="p-8 border border-gray-200 rounded-lg hover:shadow-lg transition"
+        >
+          <div class="text-4xl mb-4">📊</div>
+          <h3 class="text-xl font-bold mb-3">Analytics & Reporting</h3>
+          <p class="text-gray-600 mb-6">
+            Comprehensive reporting tools with real-time dashboards, performance
+            metrics, and data-driven insights for informed decisions.
+          </p>
+          <a
+            href="services.html#analytics"
+            class="text-blue-600 font-semibold hover:text-blue-800"
+          >
+            Learn More →
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <a
+          href="services.html"
+          class="px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition"
+        >
+          View All Services
+        </a>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT SECTION -->
+    <section class="bg-gray-50 py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+          Featured Project
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div
+            class="h-64 md:h-96 rounded-lg flex items-center justify-center overflow-hidden"
+          >
+            <img
+              src="images/strucura.png"
+              alt="Construction Project Management System"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold mb-4">
+              Construction Project Management System
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Developed a comprehensive platform for construction project
+              managers to centralize scheduling, worker coordination, budget
+              tracking, and progress monitoring. The system features QR
+              code-based attendance, real-time dashboards, and secure client
+              portals.
+            </p>
+            <ul class="space-y-2 mb-6 text-gray-700">
+              <li class="flex items-center">
+                <span class="text-green-500 mr-2">✓</span> QR Code Attendance
+                System
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-500 mr-2">✓</span> Smart Worker
+                Management
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-500 mr-2">✓</span> Real-time Progress
+                Tracking
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-500 mr-2">✓</span> Budget & Cost
+                Management
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="bg-blue-600 text-white py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">
+          Ready to Transform Your Business?
+        </h2>
+        <p class="text-lg mb-8 opacity-95">
+          Let's discuss how Aestra's solutions can help you achieve your goals
+          with precision and excellence.
+        </p>
+        <a
+          href="contact.html"
+          class="inline-block px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition"
+        >
+          Contact Us Today
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-300 py-12 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <!-- Company Info -->
+          <div>
+            <div class="flex items-center mb-4">
+              <img
+                src="images/companyLogo.png"
+                alt="Aestra Logo"
+                class="h-8 mr-2"
+              />
+              <h4
+                class="text-white font-bold"
+                style="
+                  font-family: 'Poppins', sans-serif;
+                  font-weight: 900;
+                  letter-spacing: -1px;
+                "
+              >
+                Aestra
+              </h4>
+            </div>
+            <p class="text-sm">
+              Precision software solutions built with focus, passion, and the
+              drive to exceed expectations.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="index.html" class="hover:text-white">Home</a></li>
+              <li>
+                <a href="about.html" class="hover:text-white">About Us</a>
+              </li>
+              <li>
+                <a href="services.html" class="hover:text-white">Services</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Resources -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Resources</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+              <li>
+                <a href="privacy-policy.html" class="hover:text-white"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Contact</h4>
+            <p class="text-sm mb-2">
+              <strong>Email:</strong><br />
+              <a
+                href="mailto:brillantesjmichael@gmail.com"
+                class="hover:text-white"
+                >brillantesjmichael@gmail.com</a
+              >
+            </p>
+            <p class="text-sm">
+              <strong>Phone:</strong><br />
+              <a href="tel:+639816270830" class="hover:text-white"
+                >+63 981 627 0830</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <hr class="border-gray-700 my-8" />
+
+        <div
+          class="flex flex-col md:flex-row justify-between items-center text-sm"
+        >
+          <p>&copy; 2025 Aestra. All rights reserved.</p>
+          <div class="flex space-x-6 mt-4 md:mt-0">
+            <a href="privacy-policy.html" class="hover:text-white"
+              >Privacy Policy</a
+            >
+            <a href="privacy-policy.html" class="hover:text-white"
+              >Terms of Service</a
+            >
+            <a href="contact.html" class="hover:text-white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
